@@ -17,7 +17,7 @@ export default function TodoItem({ tarea, toggleCompleted, eliminarTarea, empeza
           <TrashIcon className="w-5 h-5 text-red-500" onClick={() => eliminarTarea(tarea.id)} />
         </button>
         <button onClick={() => empezarEdicion(tarea.id, tarea.text)}>
-          <PencilSquareIcon className="w-5 h-5 text-black-500" />
+          <PencilSquareIcon className="w-5 h-5 text-black-500"/>
         </button>
       </div>
     </div>
